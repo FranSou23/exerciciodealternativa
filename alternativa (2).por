@@ -24,6 +24,15 @@ programa {
     }senao{
       escreva("Você errou\n ")
     }
+    escreva("Qual clima é melhor? \na) Verão \nb) Primavera \nc) Inverno\n")
+    leia(alternativa)
+    limpa()
+    se(alternativa == "c"){
+      escreva(" Acertou\n ")
+      pontos = pontos + 10
+    }senao{
+      escreva("Você errou\n ")
+    }
     escreva("\nSua pontuação: ", pontos)
   }
 }
