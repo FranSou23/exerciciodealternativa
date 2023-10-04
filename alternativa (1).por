@@ -4,23 +4,25 @@ programa {
     inteiro pontos = 0
     escreva("Qual seria as ferias perfeita? ")
     escreva("\na) Maranhão")
-    escreva("\nd) Bahia")
+    escreva("\nb) Bahia")
     escreva("\nc) Porto Seguro")
     escreva("\n")
     leia(alternativa)
+    limpa()
     se(alternativa == "a"){
-      escreva("Acertou ")
+      escreva("Acertou\n ")
       pontos = pontos + 10
     }senao{
-      escreva("Você errou ")
+      escreva("Você errou\n ")
     }
     escreva("Qual pais quero visitar? \na) EUA \nb) Portugal \nc) Grecia\n")
     leia(alternativa)
+    limpa()
     se(alternativa == "c"){
-      escreva(" Acertou ")
+      escreva(" Acertou\n ")
       pontos = pontos + 10
     }senao{
-      escreva("Você errou ")
+      escreva("Você errou\n ")
     }
     escreva("\nSua pontuação: ", pontos)
   }
